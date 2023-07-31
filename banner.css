@@ -1,0 +1,94 @@
+.n_ban {
+  height: 285px;
+  background: url("./images/bgi.jpg") center center / 6000px;
+  position: relative;
+}
+.wrapper_03 {
+  width: 982px;
+  height: 100%;
+  margin: 0 auto;
+ position: relative;
+}
+.arrow {
+  display: block;
+  position: absolute;
+  width: 37px;
+  height: 63px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.wrapper_03 .arrow_left {
+  left: -68px;
+  background:url("./images/spriate.png") 0 -360px;
+}
+.wrapper_03 .arrow_right {
+  right: -68px;
+  background:url("./images/spriate.png") 0 -508px;
+}
+.wrapper_03 .arrow_left:hover{
+  background-position: 0 -430px;
+}
+.wrapper_03 .arrow_right:hover {
+  background-position: 0 -578px;
+}
+.wrapper_03 .banner {
+  width: 730px;
+  position: relative;
+}
+.wrapper_03 .banner .image_list {
+  display: flex;
+  overflow: hidden;
+ 
+}
+.wrapper_03 .banner .image_list a{
+  display: block;
+}
+.wrapper_03 .banner .circle {
+  display: flex;
+  position: absolute;
+  top: 259px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrapper_03 .banner .circle a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background:url("./images/spriate.png") 3px -343px;
+}
+.wrapper_03 .banner .circle a:hover,
+.wrapper_03 .banner .circle .active
+{
+  background-position: -16px -343px;
+}
+ 
+.wrapper_03 .banner img {
+  width: 730px;
+}
+.wrapper_03 .download {
+  position: absolute;
+  width: 254px;
+  top: 0;
+  bottom: 0;
+  right:-1px;
+  background: url("./images/download.png") no-repeat 0 0;
+}
+.wrapper_03 .download .btn {
+  display: block;
+  width: 215px;
+  height: 56px;
+  margin: 186px 0 0 19px;
+ 
+  text-indent: -9999px;
+}
+.wrapper_03 .download .btn:hover {
+  background-position: 0 -290px;
+    text-decoration: none;
+    background:url("./images/download.png") 0 -290px;
+}
+.wrapper_03 .download p {
+  margin: 10px auto;
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 12px;
+}
