@@ -3,6 +3,7 @@
   margin: 0 auto;
   background-color: #fff;
   border-left: 1px solid #d3d3d3;
+  display: flex;
   
 }
 .container_left {
@@ -242,6 +243,7 @@
   width: 100%;
   height: 472px;
     margin-top: 20px;
+    display: flex;
    background: url("./images/index_bill.png");
  
 }
